@@ -151,9 +151,83 @@ td {
   width: 25%;
   height: 500px;
   border: black solid 4px;
+  border-radius: 30px;
 }
 
+h4 {
+  padding-top: 10px;
+}
+
+.winner-name-container {
+  border-top: 5px red solid;
+  display: flex;
+  padding-top: 65px;
+  bottom: 0;
+  left: 100px;
+}
 .schedule-track-image {
-  height: 50%;
+  height: 25%;
   border-bottom: red 4px solid;
+  border-top: #e10600 3px solid;
+}
+
+.schedule-track-flag {
+  margin-top: 10px;
+  height: 20%;
+  border-radius: 100%;
+  /* border-bottom: red 4px solid;
+  border-top: #e10600 3px solid; */
+}
+
+/* 1st 2nd 3rd containers */
+
+.scheduled-winner-image-container-1st {
+  margin-top: 15%;
+  height: 110px;
+  width: 120px;
+  flex-wrap: wrap;
+  display: inline-block;
+  border-top: 2px white solid;
+  border-left: 2px white solid;
+  border-right: 2px white solid;
+  border-radius: 30px;
+  align-content: flex-start;
+  background-color: #3671c6;
+}
+
+.scheduled-winner-image-container-2nd {
+  margin-top: 5%;
+  height: 110px;
+  width: 120px;
+  flex-wrap: wrap;
+  display: inline-block;
+  border-top: 2px white solid;
+  border-left: 2px white solid;
+  border-right: 2px white solid;
+  border-radius: 30px;
+  align-content: flex-start;
+  background-color: #3671c6;
+}
+
+.scheduled-winner-image-container-3rd {
+  margin-top: 5%;
+  height: 110px;
+  width: 120px;
+  flex-wrap: wrap;
+  display: inline-block;
+  border-top: 2px white solid;
+  border-left: 2px white solid;
+  border-right: 2px white solid;
+  border-radius: 30px;
+  align-content: flex-start;
+  background-color: #e80020;
+}
+
+.scheduled-winner-image {
+  height: 100%;
+  width: 100%;
+  /* border-bottom: #e10600 solid 4px; */
+  display: flex;
+  border-bottom: 2px white solid;
+  border-radius: 30px;
 }
