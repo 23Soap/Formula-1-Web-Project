@@ -182,9 +182,8 @@ h4 {
 /* 1st 2nd 3rd containers */
 
 .scheduled-winner-image-container-1st {
-  margin-top: 15%;
-  height: 110px;
-  width: 120px;
+  /* margin-top: 15%; */
+  width: 29%;
   flex-wrap: wrap;
   display: inline-block;
   border-top: 2px white solid;
@@ -196,9 +195,8 @@ h4 {
 }
 
 .scheduled-winner-image-container-2nd {
-  margin-top: 5%;
-  height: 110px;
-  width: 120px;
+  /* margin-top: 5%; */
+  width: 25%;
   flex-wrap: wrap;
   display: inline-block;
   border-top: 2px white solid;
@@ -210,9 +208,9 @@ h4 {
 }
 
 .scheduled-winner-image-container-3rd {
-  margin-top: 5%;
-  height: 110px;
-  width: 120px;
+  /* margin-top: 5%; */
+  height: 20%;
+  width: 22%;
   flex-wrap: wrap;
   display: inline-block;
   border-top: 2px white solid;
@@ -230,4 +228,9 @@ h4 {
   display: flex;
   border-bottom: 2px white solid;
   border-radius: 30px;
+}
+
+.deneme {
+  /* background-color: white; */
+  padding-top: 10%;
 }
