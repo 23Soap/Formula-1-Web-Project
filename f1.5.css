@@ -312,6 +312,7 @@ h5 {
   height: 500px;
   border: white solid 4px;
   margin-bottom: 10%;
+  border-radius: 15px;
 }
 
 .api-container > h1,
