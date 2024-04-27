@@ -17,6 +17,9 @@ td {
 }
 
 /* For the nav */
+a {
+  color: white;
+}
 
 .top-nav-container {
   /* background-color: #e10600; */
@@ -91,7 +94,7 @@ li:hover {
   margin-left: 10%;
 }
 .winner-stats-container > img {
-  margin-top: 15%;
+  margin-top: 10%;
   margin-left: 35%;
   display: inline-block;
   position: relative;
@@ -151,11 +154,16 @@ td {
   width: 25%;
   height: 500px;
   border: black solid 4px;
-  border-radius: 30px;
+  border-radius: 15px 50px;
 }
 
 h4 {
   padding-top: 10px;
+}
+
+h5 {
+  background-color: #1e1e21;
+  padding-bottom: 20px;
 }
 
 .winner-name-container {
@@ -173,10 +181,9 @@ h4 {
 
 .schedule-track-flag {
   margin-top: 10px;
-  height: 20%;
-  border-radius: 100%;
-  /* border-bottom: red 4px solid;
-  border-top: #e10600 3px solid; */
+  height: 20px;
+  border-radius: 50%;
+  border: white 2px solid;
 }
 
 /* 1st 2nd 3rd containers */
@@ -220,6 +227,17 @@ h4 {
   align-content: flex-start;
   background-color: #e80020;
 }
+.red-bull-background {
+  background-color: #3671c6;
+}
+
+.ferrari-background {
+  background-color: #e10600;
+}
+
+.mclaren-background {
+  background-color: #ff8000;
+}
 
 .scheduled-winner-image {
   height: 100%;
@@ -230,7 +248,41 @@ h4 {
   border-radius: 30px;
 }
 
-.deneme {
+.track-schedule-containers {
   /* background-color: white; */
   padding-top: 10%;
+}
+
+.highlights {
+  width: 50%;
+  height: 200px;
+  padding-top: 5%;
+  display: flex;
+  margin: 0 auto;
+  background-color: none;
+  gap: 10px;
+  justify-content: space-evenly;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.highlights-containers {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  height: 120px;
+  color: white;
+  border: white solid 4px;
+  border-radius: 15px 50px 30px;
+}
+
+.highlights-flag {
+  border-radius: 15px 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 40%;
+  height: 50%;
 }
