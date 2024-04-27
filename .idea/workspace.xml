@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a886e8-8a10-4971-a815-033aa96e087c" name="Changes" comment="" />
+    <list default="true" id="02a886e8-8a10-4971-a815-033aa96e087c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/arap.flag.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/china.flag.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/japan.flag.avif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f1.5.css" beforeDir="false" afterPath="$PROJECT_DIR$/f1.5.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f1.5index.html" beforeDir="false" afterPath="$PROJECT_DIR$/f1.5index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/full-schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/full-schedule.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +27,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -84,6 +94,7 @@
       <workItem from="1713854854704" duration="604000" />
       <workItem from="1714027207395" duration="16000" />
       <workItem from="1714027232774" duration="8000" />
+      <workItem from="1714185423814" duration="416000" />
     </task>
     <servers />
   </component>

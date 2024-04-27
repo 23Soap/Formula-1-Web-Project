@@ -12,8 +12,13 @@ h3,
 table,
 h4,
 nav,
-td {
+td,
+p {
   font-family: "Formula1 Display-Regular", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* For the nav */
@@ -199,6 +204,7 @@ h5 {
   border-radius: 30px;
   align-content: flex-start;
   background-color: #3671c6;
+  margin-top: 7%;
 }
 
 .scheduled-winner-image-container-2nd {
@@ -253,36 +259,106 @@ h5 {
   padding-top: 10%;
 }
 
+/* Highlights */
+
 .highlights {
-  width: 50%;
+  position: relative;
+  width: 100%;
   height: 200px;
   padding-top: 5%;
   display: flex;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   background-color: none;
   gap: 10px;
   justify-content: space-evenly;
-  justify-content: flex-start;
-  align-items: flex-start;
+  /* justify-content: flex-start; */
+  /* align-items: flex-start; */
+}
+.highlights-containers:hover {
+  background-color: black;
 }
 
 .highlights-containers {
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  order: 1;
+  /* flex-wrap: wrap; */
+  /* justify-content: flex-start; */
   position: relative;
   text-align: center;
   display: inline-block;
-  width: 50%;
-  height: 120px;
+  width: 10%;
+  height: 120%;
   color: white;
   border: white solid 4px;
   border-radius: 15px 50px 30px;
 }
 
 .highlights-flag {
-  border-radius: 15px 50px;
+  border-radius: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   width: 40%;
   height: 50%;
+}
+
+.weather-api-container {
+  /* padding-top: 5%; */
+  /* float: right; */
+  width: 50%;
+  height: 100%;
+  /* position: relative; */
+  flex-grow: 1;
+  order: 2;
+  width: 50%;
+  height: 500px;
+  border: white solid 4px;
+  margin-bottom: 10%;
+}
+
+.api-container > h1,
+h3 {
+  border-bottom: #e10600 solid 3px;
+  text-align: center;
+  color: white;
+}
+
+.api-headers {
+  width: 80px;
+  color: aliceblue;
+  display: inline-block;
+  margin-left: 10%;
+  border-right: #e10600 4px solid;
+}
+
+.api-p {
+  color: aliceblue;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.api-time {
+  margin-left: 5%;
+  color: aliceblue;
+  display: inline-block;
+}
+
+.api-track-image {
+  margin-left: 60%;
+  text-align: center;
+}
+
+/* .weather {
+  float: right;
+} */
+
+.api-container1 {
+  width: 50%;
+  height: 100%;
+  /* border: red solid 3px; */
+}
+
+.api-container2 {
+  width: 50%;
+  height: 100%;
+  /* border: red solid 3px; */
+  float: right;
 }
