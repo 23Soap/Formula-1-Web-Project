@@ -27,7 +27,6 @@ a {
 }
 
 .top-nav-container {
-  /* background-color: #e10600; */
   padding: 10px 10px 10px 10px;
   text-align: center;
   border-bottom: solid 4px #e10600;
@@ -49,95 +48,140 @@ li:hover {
 .winner-header {
   text-align: center;
   color: white;
-  /* border-bottom: solid red 4px; */
+}
+
+.winner-header > h1 {
+  border-bottom: #e10600 4px solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* latest race winner container*/
 
-.first-container {
+.last-winner-container-1st {
+  margin: 0 auto;
   display: inline-block;
-  flex-wrap: nowrap;
-  text-align: center;
-  align-items: flex-start;
-
-  /* gap: 10%; */
-}
-
-.last-winner-container {
-  align-items: flex-start;
-  /* display: inline-block; */
   width: 100%;
-  height: 290px;
-  margin-top: 1%;
-  border-bottom: red solid 4px;
-  /* border: 4px solid white; */
+  height: 500px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  border-bottom: #e10600 4px solid;
 }
+.last-winner-container-2nd-left {
+  float: left;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 49%;
+  height: 100%;
+  border-right: 4px grey outset;
+}
+.last-winner-container-2nd-right {
+  float: right;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.last-winner-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.image-container {
+  background-color: blue;
+  margin-top: 10%;
+  border: 4px white solid;
+  border-radius: 50%;
+  width: 35%;
+  height: 60%;
+}
+.container-stats {
+  width: 50%;
+  height: 50%;
+  border: 4px grey solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  border-radius: 25%;
+}
+.flag-td {
+  height: 40px;
+  width: 40px;
+  border: white 2px solid;
+  border-radius: 50%;
+}
+table {
+  color: white;
+}
+
 .last-winner-container > h2 {
   color: white;
   text-align: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
-.winner-image {
+/* .winner-image {
   width: 220px;
   height: 180px;
   position: relative;
   border-radius: 25%;
   align-items: center;
-  /* padding-left: 50px; */
+  padding-left: 50px;
   padding-right: 25px;
   margin-top: 13px;
-}
-.winner-image-container {
+} */
+/* .winner-image-container {
   align-items: center;
   display: inline-block;
-  /* position: relative; */
-  width: 200px;
-  height: 200px;
+  position: relative;
+  width: 30%;
+  height: 100%;
   background-color: #3671c6;
   border-radius: 15%;
   margin-top: 27px;
   margin-left: 10%;
   margin-bottom: 100px;
   border: whitesmoke 4px solid;
-}
+} */
 
-.track-name {
+/* .track-name {
   text-align: center;
   color: white;
-  /* padding-left: 35%; */
-}
-.winner-stats-container {
-  /* position: relative; */
+  padding-left: 35%;
+} */
+/* .winner-stats-container {
+  position: relative;
   align-items: center;
   display: inline-block;
-  /* border-left: 4px solid black; */
+  border-left: 4px solid black;
   width: 45%;
   height: 25%;
   margin-left: 5%;
-}
-.track-header {
+} */
+/* .track-header {
   width: 50px;
   align-items: center;
   padding-right: 40%;
-}
+} */
 
-.stats-track-image {
+/* .stats-track-image {
   margin-left: 10%;
   width: 40%;
-  /* height: 10%; */
+  height: 10%;
   display: inline-block;
-}
-table {
-  width: 100%;
-  margin-top: 20%;
-  /* border: #e10600 5px solid;
-  border-radius: 15px; */
-}
-th {
+} */
+/* th {
   text-align: center;
   background-color: black;
   color: white;
   padding: 10px 10px 10px 10px;
-}
+} */
 td {
   text-align: center;
   padding: 10px 10px 10px 10px;
@@ -147,6 +191,7 @@ td {
 .flag {
   height: 30px;
   width: 45px;
+  border-radius: 50%;
 }
 
 /* Schedule */
