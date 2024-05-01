@@ -53,7 +53,6 @@ li:hover {
 
 td {
   color: black;
-  /* width: 10px; */
   height: 30px;
 }
 
@@ -62,10 +61,6 @@ table {
   width: 100%;
   border-style: hidden;
 }
-
-/* .t-background {
-  background-color: white;
-} */
 
 tr {
   justify-content: center;

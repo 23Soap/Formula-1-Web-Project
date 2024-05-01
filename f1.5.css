@@ -110,9 +110,6 @@ li:hover {
   margin-top: 10%;
   border-radius: 25%;
 }
-/* .container-stats > h2 {
-  color: white;
-} */
 .flag-td {
   height: 40px;
   width: 40px;
@@ -129,73 +126,11 @@ table {
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-/* .winner-image {
-  width: 220px;
-  height: 180px;
-  position: relative;
-  border-radius: 25%;
-  align-items: center;
-  padding-left: 50px;
-  padding-right: 25px;
-  margin-top: 13px;
-} */
-/* .winner-image-container {
-  align-items: center;
-  display: inline-block;
-  position: relative;
-  width: 30%;
-  height: 100%;
-  background-color: #3671c6;
-  border-radius: 15%;
-  margin-top: 27px;
-  margin-left: 10%;
-  margin-bottom: 100px;
-  border: whitesmoke 4px solid;
-} */
 
-/* .track-name {
-  text-align: center;
-  color: white;
-  padding-left: 35%;
-} */
-/* .winner-stats-container {
-  position: relative;
-  align-items: center;
-  display: inline-block;
-  border-left: 4px solid black;
-  width: 45%;
-  height: 25%;
-  margin-left: 5%;
-} */
-/* .track-header {
-  width: 50px;
-  align-items: center;
-  padding-right: 40%;
-} */
-
-/* .stats-track-image {
-  margin-left: 10%;
-  width: 40%;
-  height: 10%;
-  display: inline-block;
-} */
-/* th {
-  text-align: center;
-  background-color: black;
-  color: white;
-  padding: 10px 10px 10px 10px;
-} */
 td {
   text-align: center;
   padding: 10px 10px 10px 10px;
 }
-
-/* FLAG */
-/* .flag {
-  height: 30px;
-  width: 45px;
-  border-radius: 50%;
-} */
 
 /* Schedule */
 
@@ -246,9 +181,6 @@ h5 {
 
 .schedule-track-flag {
   margin-top: 10px;
-  /* height: 20px;
-  border-radius: 50%;
-  border: white 2px solid; */
   height: 40px;
   width: 40px;
   border: white 2px solid;
@@ -258,7 +190,6 @@ h5 {
 /* 1st 2nd 3rd containers */
 
 .scheduled-winner-image-container-1st {
-  /* margin-top: 15%; */
   width: 29%;
   flex-wrap: wrap;
   display: inline-block;
@@ -272,7 +203,6 @@ h5 {
 }
 
 .scheduled-winner-image-container-2nd {
-  /* margin-top: 5%; */
   width: 25%;
   flex-wrap: wrap;
   display: inline-block;
@@ -285,7 +215,6 @@ h5 {
 }
 
 .scheduled-winner-image-container-3rd {
-  /* margin-top: 5%; */
   height: 20%;
   width: 22%;
   flex-wrap: wrap;
@@ -312,14 +241,12 @@ h5 {
 .scheduled-winner-image {
   height: 100%;
   width: 100%;
-  /* border-bottom: #e10600 solid 4px; */
   display: flex;
   border-bottom: 2px white solid;
   border-radius: 30px;
 }
 
 .track-schedule-containers {
-  /* background-color: white; */
   padding-top: 10%;
 }
 
@@ -335,17 +262,12 @@ h5 {
   background-color: none;
   gap: 10px;
   justify-content: space-evenly;
-  /* justify-content: flex-start; */
-  /* align-items: flex-start; */
 }
 .highlights-containers:hover {
   background-color: black;
 }
 
 .highlights-containers {
-  /* order: 1; */
-  /* flex-wrap: wrap; */
-  /* justify-content: flex-start; */
   position: relative;
   text-align: center;
   display: inline-block;
@@ -365,11 +287,8 @@ h5 {
 }
 
 .weather-api-container {
-  /* padding-top: 5%; */
-  /* float: right; */
   width: 50%;
   height: 100%;
-  /* position: relative; */
   width: 50%;
   height: 500px;
   border: white solid 4px;
@@ -416,12 +335,10 @@ h3 {
 .api-container1 {
   width: 50%;
   height: 100%;
-  /* border: red solid 3px; */
 }
 
 .api-container2 {
   width: 50%;
   height: 100%;
-  /* border: red solid 3px; */
   float: right;
 }
