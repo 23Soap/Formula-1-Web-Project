@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02a886e8-8a10-4971-a815-033aa96e087c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/arap.flag.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/china.flag.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/japan.flag.avif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f1.5.css" beforeDir="false" afterPath="$PROJECT_DIR$/f1.5.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/f1.5index.html" beforeDir="false" afterPath="$PROJECT_DIR$/f1.5index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/full-schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/full-schedule.html" afterDir="false" />
     </list>
@@ -95,6 +91,7 @@
       <workItem from="1714027207395" duration="16000" />
       <workItem from="1714027232774" duration="8000" />
       <workItem from="1714185423814" duration="416000" />
+      <workItem from="1714594347840" duration="44000" />
     </task>
     <servers />
   </component>
