@@ -101,47 +101,6 @@ tr {
   color: white;
 }
 
-.red-bull-table {
-  background-color: #3671c6;
-  color: white;
-}
-.ferrari-table {
-  background-color: #e10600;
-  color: white;
-}
-.mclaren-table {
-  background-color: #ff8000;
-  color: white;
-}
-.mercedes-table {
-  background-color: #27f4d2;
-  color: black;
-}
-.astons-table {
-  background-color: #229971;
-  color: white;
-}
-.haas-table {
-  background-color: #b6babd;
-  color: black;
-}
-.williams-table {
-  background-color: #64c4ff;
-  color: black;
-}
-.sauber-table {
-  background-color: #52e252;
-  color: black;
-}
-.rb-table {
-  background-color: #6692ff;
-  color: white;
-}
-.alpine-table {
-  background-color: #ff87bc;
-  color: white;
-}
-
 .flag {
   width: 25px;
   height: 25px;
